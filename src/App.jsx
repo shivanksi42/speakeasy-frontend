@@ -24,7 +24,7 @@ const VoiceChatApp = () => {
   const [showTranscription, setShowTranscription] = useState(false);
   const [isEditingTranscription, setIsEditingTranscription] = useState(false);
   const [isMuted, setIsMuted] = useState(false);
-  const [apiEndpoint, setApiEndpoint] = useState("http://localhost:8000");
+  const [apiEndpoint, setApiEndpoint] = useState("https://speakeasy-backend-1zjp.onrender.com");
   const [currentAudio, setCurrentAudio] = useState(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [playingMessageId, setPlayingMessageId] = useState(null);
