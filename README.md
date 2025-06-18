@@ -1,12 +1,89 @@
-# React + Vite
+# 🎙️ SpeakEasy AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**SpeakEasy AI** is a smart and elegant voice + text chat assistant built using **React**. Talk to the AI using your voice or keyboard, and hear it respond back using realistic speech. Ideal for hands-free interaction, accessibility, and a futuristic chatting experience.
 
-Currently, two official plugins are available:
+👉 **[Live Demo](media/demo.gif)**  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- 🎤 **Voice Recording**: Record voice input using the microphone
+- 🧠 **AI Chat**: Send questions or prompts and get intelligent responses
+- 🔊 **Text-to-Speech**: AI responses are spoken aloud automatically
+- ✏️ **Transcription Editing**: Edit your recorded message before sending
+- 🔇 **Mute Option**: Mute audio playback any time
+- 🗑️ **Clear Chat**: Delete entire conversations with one click
+- 🎨 **Modern UI**: Smooth, responsive interface built with TailwindCSS
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React, TailwindCSS
+- **Icons**: Lucide React
+- **APIs**: Web Audio API, MediaRecorder
+- **Backend API Endpoints**:
+  - `/transcribe`: Speech-to-Text
+  - `/chat`: Chat response from LLM
+  - `/text-to-speech`: Convert AI text to speech
+
+> ⚠️ This app requires a backend service that supports voice transcription, chat, and text-to-speech.  
+> The backend code is here : https://github.com/shivanksi42/speakeasy-backend
+> 
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/yourusername/speakeasy-ai.git
+cd speakeasy-ai
+npm install
+npm run dev
+
+📁 Project Structure
+bash
+Copy
+Edit
+/src
+  ├── VoiceChatApp.jsx   # Main component logic and UI
+  ├── App.css            # Tailwind styling
+  └── index.js           # App entry point
+
+✅ Usage
+Click the mic to record a voice message
+
+Review/edit the transcription before sending
+
+Use the text box to chat normally
+
+Click play to hear audio responses
+
+Toggle mute, or clear chat anytime
+
+💡 Roadmap / Future Ideas
+🌍 Support for multilingual input/output
+
+🔊 Voice customization (male/female, accent)
+
+💾 Conversation history and saving
+
+📱 Full mobile responsiveness and PWA support
+
+🧠 Choice of AI engines (OpenAI, Google, etc.)
+
+🙏 Acknowledgements
+Icons: Lucide
+
+Transcription & TTS backend: Custom Node/Python server (host your own)
+
+Design inspired by conversational AI platforms
+
+💬 Feedback
+Found a bug? Have suggestions?
+Open an issue or reach out via GitHub Issues
+
+📄 License
+MIT © 2025 Shivam Kumar
