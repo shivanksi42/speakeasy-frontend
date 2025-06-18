@@ -2,7 +2,9 @@
 
 **SpeakEasy AI** is a smart and elegant voice + text chat assistant built using **React**. Talk to the AI using your voice or keyboard, and hear it respond back using realistic speech. Ideal for hands-free interaction, accessibility, and a futuristic chatting experience.
 
-👉 **[Live Demo](media/demo.gif)**  
+## 🎞️ Demo Preview
+
+![SpeakEasy AI Demo](media/demo.gif) 
 
 
 ---
@@ -42,6 +44,7 @@ git clone https://github.com/yourusername/speakeasy-ai.git
 cd speakeasy-ai
 npm install
 npm run dev
+```
 
 📁 Project Structure
 bash
@@ -63,6 +66,7 @@ Click play to hear audio responses
 
 Toggle mute, or clear chat anytime
 
+
 💡 Roadmap / Future Ideas
 🌍 Support for multilingual input/output
 
@@ -74,11 +78,9 @@ Toggle mute, or clear chat anytime
 
 🧠 Choice of AI engines (OpenAI, Google, etc.)
 
+
 🙏 Acknowledgements
 Icons: Lucide
-
-Transcription & TTS backend: Custom Node/Python server (host your own)
-
 Design inspired by conversational AI platforms
 
 💬 Feedback
